@@ -1,0 +1,26 @@
+Source: np2kai
+Section: unknown
+Priority: optional
+Maintainer: feos <feykomylce@gmail.com>
+Build-Depends: debhelper-compat (= 13),
+               git,
+               cmake,
+               ninja-build,
+               libsdl2-dev,
+               libsdl2-mixer-dev,
+               libsdl2-ttf-dev,
+               libsdl1.2-dev,
+               libsdl-mixer1.2-dev,
+               libsdl-ttf2.0-dev,
+               libusb-1.0-0-dev,
+               libssl-dev
+Standards-Version: 4.5.1
+Homepage: http://domisan.sakura.ne.jp/article/np2kai/np2kai.html
+Vcs-Git: https://github.com/TASEmulators/NP2kai
+Rules-Requires-Root: no
+
+Package: np2kai
+Architecture: any
+Depends: ${shlibs:Depends} ${misc:Depends}
+Description: NEC PC-98x1 and EPSON PC-x86 emulator
+ Modifiction of Neko Project II.

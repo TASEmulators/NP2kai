@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	dh_auto_configure -- -DBUILD_SDL=ON -DBUILD_X=OFF -DCMAKE_BUILD_TYPE=Release

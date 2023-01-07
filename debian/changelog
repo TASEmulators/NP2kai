@@ -1,0 +1,5 @@
+np2kai (0.86.0.22-1) unstable; urgency=medium
+
+  * Add Debian package files for upstream revision 22
+    
+ -- feos <feykomylce@gmail.com>  Sat, 7 Jan 2023 00:00:00 +0000
